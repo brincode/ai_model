@@ -4,7 +4,7 @@ import streamlit as st
 
 # loading the saved model
 
-loaded_model = pickle.load(open(R'C:\Users\Mido Computer\Desktop\ll\model.sav','rb'))
+loaded_model = pickle.load(open(R'C:\Users\Mido Computer\Desktop\ll\ai_model\model.sav','rb'))
 
 # creating a function for Prediction
 def diabetes_prediction(input_data):
