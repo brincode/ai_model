@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 
-load_model = pickle.load(open('model.sav','rb'))
+load_model = pickle.load(open(R'C:\Users\Mido Computer\Desktop\ll\ai_model\model.sav','rb'))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
